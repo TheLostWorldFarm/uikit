@@ -23,10 +23,13 @@ const StyledLink = styled(Link)`
     }
   }
   .desktop-icon {
-    width: 156px;
+    width: 36px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
+    }
+    .jf-text {
+      font-family: 'JurassicPark'
     }
   }
 `;
@@ -36,7 +39,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const innerLogo = (
     <>
       <LogoIcon className="mobile-icon" />
-      <LogoWithText className="desktop-icon" isDark={isDark} />
+      <LogoWithText className="desktop-icon jf-text" isDark={isDark} />
     </>
   );
 
@@ -50,11 +53,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Blizzard home page">
+        <StyledLink as="a" href={href} aria-label="Jurassic Farm home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Blizzard home page">
+        <StyledLink to={href} aria-label="Jurassic Farm home page">
           {innerLogo}
         </StyledLink>
       )}

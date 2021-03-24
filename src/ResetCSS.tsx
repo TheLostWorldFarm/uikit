@@ -84,13 +84,13 @@ const ResetCSS = createGlobalStyle`
 font-family: 'JurassicPark';
   font-style: normal;
   font-weight: 400;
-src: url("https://www.jurassicfarm.app/fonts/JurassicPark.otf");
+src: url("../fonts/JurassicPark.otf");
 }
 @font-face {
   font-family: 'Dinosaur Icons';
   font-style: normal;
   font-weight: 400;
-  src: url('https://www.jurassicfarm.app/fonts/Dinosaur Icons.otf');
+  src: url('../fonts/Dinosaur Icons.otf');
 }
 `;
 
