@@ -5,7 +5,7 @@ import { SvgProps } from "../../../components/Svg/types";
 const Icon: React.FC<SvgProps> = (props) => {
   return (
     <text>
-      <div style={{fontFamily:'Dinosaur Icons', fontSize:'1.5rem;', width: '24px', height: '24px'}}>L</div>
+      <div style={{fontFamily:'Dinosaur Icons', fontSize:'36px;', width: '32px', height: '32px'}}>L</div>
     </text>
   );
 };
