@@ -1,12 +1,17 @@
 import React from "react";
 import Svg from "../../../components/Svg/Svg";
 import { SvgProps } from "../../../components/Svg/types";
+import styled from "styled-components";
+
+const StyledIcon = styled.div`
+  }
+`;
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <text>
-      <div style={{fontFamily:'Dinosaur Icons', fontSize:'36px;', width: '32px', height: '32px'}}>braceright</div>
-    </text>
+    <StyledIcon>
+      <div style={{fontFamily:'Dinosaur Icons', fontSize:'32', width: '32', height: '32', marginRight: '9'}}>~</div>
+    </StyledIcon>
   );
 };
 
