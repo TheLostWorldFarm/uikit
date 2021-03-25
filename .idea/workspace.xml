@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23a0b00-e284-45de-b9f3-d2e27eb675ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/widgets/Menu/icons/Vault.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonMenu/ButtonMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonMenu/ButtonMenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/Menu/icons/Cave.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Menu/icons/Cave.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/Menu/icons/Farm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Menu/icons/Farm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/Menu/icons/Pool.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Menu/icons/Pool.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Menu/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Menu/icons/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,29 +31,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="2" />
-          <entry key="ts" value="3" />
-          <entry key="tsx" value="19" />
+          <entry key="ts" value="5" />
+          <entry key="tsx" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="TypeScript" value="3" />
-          <entry key="TypeScript JSX" value="19" />
+          <entry key="TypeScript" value="5" />
+          <entry key="TypeScript JSX" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="31" />
-          <entry key="ts" value="16" />
-          <entry key="tsx" value="588" />
+          <entry key="json" value="35" />
+          <entry key="ts" value="31" />
+          <entry key="tsx" value="598" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="31" />
-          <entry key="TypeScript" value="16" />
-          <entry key="TypeScript JSX" value="588" />
+          <entry key="JSON" value="35" />
+          <entry key="TypeScript" value="31" />
+          <entry key="TypeScript JSX" value="598" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -68,10 +67,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/config.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="27" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Github.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Pool.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Vault.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,33 +130,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Home.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Cave.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="109" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="109" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Nft.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="85">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -135,29 +153,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/More.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/components/Logo.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -168,10 +163,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ButtonMenu/ButtonMenuItem.tsx">
+        <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Logo.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,7 +183,6 @@
       <find>logo.pn</find>
       <find>logoRound.png</find>
       <find>logoWithText</find>
-      <find>logo-with-text</find>
       <find>logo.png</find>
       <find>logo-with</find>
       <find>desktop-icon</find>
@@ -193,6 +190,11 @@
       <find>jurassicfarm.app</find>
       <find>resetcss</find>
       <find>colorKey</find>
+      <find>logo-with-text</find>
+      <find>dinosa</find>
+      <find>poolicon</find>
+      <find>HomeIcon</find>
+      <find>vault</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,6 +213,8 @@
         <option value="$PROJECT_DIR$/src/components/ButtonMenu/ButtonMenuItem.tsx" />
         <option value="$PROJECT_DIR$/src/widgets/Menu/icons/Pool.tsx" />
         <option value="$PROJECT_DIR$/src/widgets/Menu/icons/Farm.tsx" />
+        <option value="$PROJECT_DIR$/src/widgets/Menu/icons/index.ts" />
+        <option value="$PROJECT_DIR$/src/widgets/Menu/icons/Vault.tsx" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -346,12 +350,12 @@
       <workItem from="1616531014981" duration="5276000" />
       <workItem from="1616549842131" duration="4242000" />
       <workItem from="1616558267466" duration="3657000" />
-      <workItem from="1616688642145" duration="2565000" />
+      <workItem from="1616688642145" duration="5808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15941000" />
+    <option name="totallyTimeSpent" value="19184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1736" y="115" width="1667" height="914" extended-state="0" />
@@ -395,13 +399,6 @@
         <state relative-caret-position="-248" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Logo.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Box/Box.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -438,16 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Github.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -494,16 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Cave.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="109" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="109" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Nft.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -530,6 +507,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Logo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Cave.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Pool.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -541,6 +538,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Github.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widgets/Menu/icons/Vault.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

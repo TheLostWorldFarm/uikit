@@ -14,6 +14,7 @@ export { default as CaveIcon } from "./Cave";
 export { default as PoolIcon } from "./Pool";
 export { default as SunIcon } from "./Sun";
 export { default as TelegramIcon } from "./Telegram";
+export { default as VaultIcon } from "./Vault";
 export { default as TicketIcon } from "./Ticket";
 export { default as TradeIcon } from "./Trade";
 export { default as TwitterIcon } from "./Twitter";
