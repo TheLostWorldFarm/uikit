@@ -10,10 +10,26 @@ interface LogoProps extends SvgProps {
 const StyledText = styled.div`
    width: 230px;
    display: flex;
+   .logo-text-container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+   }
   .logo-main-text {
     font-size: 50px;
     margin-left: 12px;
     color: #cdb537;
+    top: 12px;
+    position: relative;
+  }
+  .logo-tagline {
+    font-family: JurassicPark;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: -5px;
+    margin-left: 12px;
+    color: #808186;
   }
 `;
 
@@ -24,7 +40,10 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
       <Svg viewBox="0 0 36 33" {...props}>
         <image height="33" href={'/images/dino/logo-with-text.png'}/>
       </Svg>
-      <span className="logo-main-text" style={{fontFamily:'JurassicPark'}}>JurassicFarm</span>
+      <div className="logo-text-container">
+        <span className="logo-main-text" style={{fontFamily:'JurassicPark'}}>JurassicFarm</span>
+        <div className="logo-tagline">The Lost World</div>
+      </div>
     </StyledText>
   );
 };
